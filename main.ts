@@ -46,7 +46,7 @@ function createWindow() {
       win.webContents.openDevTools();
     })
     .catch(err => {
-      console.log("An error occured", err);
+      console.log("An error occurred", err);
     });
 }
 
